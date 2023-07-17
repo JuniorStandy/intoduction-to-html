@@ -1,0 +1,109 @@
+.nav {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.925);
+}
+
+.nav_container_one {
+    width: 30%;
+    height: 85px;
+}
+
+.nav_img {
+    width: 50%;
+    height: 85px;
+    background-image: url('../project-one/imges/WhatsApp\ Image\ 2023-07-07\ at\ 12.26.40\ PM.jpeg');
+    background-position: center;
+    display: flex;
+    position: relative;
+    top: 5%;
+    left: 30%;
+    background-size: cover;
+}
+
+.nav_img:hover {
+    background-image: url('../project-one/imges/WhatsApp\ Image\ 2023-07-14\ at\ 12.57.28\ PM.jpeg');
+}
+
+.nav_container_two {
+    width: 40%;
+    height: 85%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_container_two>a {
+    color: white;
+    position: relative;
+    top: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav_container_two>a:hover {
+    color: aqua;
+
+}
+
+.btn {
+    width: 9rem;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    border: none;
+    left: 40%;
+    top: 40px;
+}
+
+.btn>a {
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    color: rgb(223, 186, 138);
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    top: 10px;
+    left: 15px;
+}
+
+.btn>a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.Home_Work {
+    width: 100%;
+    height: 70vh;
+    background-image: url('../project-one/imges/WhatsApp\ Image\ 2023-07-14\ at\ 12.57.28\ PM.jpeg');
+    color: aliceblue;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.header_h1 {
+    text-align: center;
+    width: 100%;
+    height: 55vh;
+    text-transform: uppercase;
+    font-style: italic;
+    text-overflow: ellipsis;
+}
+
+.header_overlay {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.671);
+}
